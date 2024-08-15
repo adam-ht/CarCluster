@@ -17,7 +17,7 @@ Here are a few demo videos of various instrument clusters in action:
 ## What do I need?
 The hardware for this is pretty straightforward. You will need:
 
- - ESP32 board (I am using a generic Devkit V1 board - available from ebay for around 10€)
+ - ESP32 board (I am using ESP32 D1 MINI)
  - MCP2515 CAN bus module (I am using a generic one from ebay - available for around 5€)
  - 12V power supply (doesn't have to be too powerful. But 1A or more is probably what you want)
  - Car instrument cluster supported by this project
@@ -58,7 +58,12 @@ If you want to use the instrument cluster for gaming then currently supported ar
 - Forza Horizon 4 (Horizon 5 should also work, as should Forza Motorsport 7)
 - BeamNG.drive
 - Simhub (not a game but a tool to interface with other games not on this list)
-  
+### Changes that I made
+- Added oil temperature message which on some clusters are shown in menu
+- Added oil temperature, fuel quantity and ignition code to BeamNG.cpp
+- Added MENU button correct code
+- Added four button for my setup: UP, DOWN, OK, MENU
+
 ## Set it up
 ### Wiring for VW PQ platform cluster
 Below is the connector pinout for the Polo 6R instrument cluster:
