@@ -2,6 +2,7 @@
 # CarCluster
 
 **Control car instrument clusters from your computer for gaming or other purposes using an ESP8266.**
+## Now you can switch the branch to use code for ESP32
 
 ![Main image](https://github.com/adam-ht/CarCluster-esp8266/blob/main/Misc/main_display.jpg?raw=true)
 
